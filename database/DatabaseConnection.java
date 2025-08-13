@@ -11,7 +11,7 @@ public class DatabaseConnection   {
     {
         try{
             connection = DriverManager.getConnection
-                    ("jdbc:mysql://localhost:3306/cyberent","root","password"); //change your password here
+                    ("jdbc:mysql://localhost:3306/cyberent","root","khanc"); //change your password here
             System.out.println("Database Connected");
         }catch(Exception ex)
         {
